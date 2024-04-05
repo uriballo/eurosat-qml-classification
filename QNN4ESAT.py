@@ -29,6 +29,7 @@ class QNN4ESAT(nn.Module):
         x = F.max_pool2d(x, 2)
         x = x.view(-1, 32 * 4 * 4)
         x = F.relu(self.fc1(x))
+        x = self.dropout(x)
         x = self.fc2(x)
         x = self.dropout(x)
         x = torch.stack([self.qlayer(i) for i in x])

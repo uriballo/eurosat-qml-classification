@@ -7,7 +7,7 @@ if __name__ == '__main__':
     train_loader, val_loader = loader.get_loaders()
 
     model = QNN4ESAT()
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.0003)
+    optimizer = torch.optim.Adam(model.parameters(), lr=3e-4)
     loss_fn = torch.nn.CrossEntropyLoss()
 
     model.train()
