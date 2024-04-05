@@ -8,7 +8,7 @@ rotation_circuit_shapes = {"weights": (4,)}
 @qml.qnode(dev, interface="torch", diff_method="adjoint")
 def rotation_circuit(inputs, weights):
     for i in range(4):
-        qml.RY(inputs[i] * np.pi, wires=i)
+        qml.RX(inputs[i] * np.pi, wires=i)
         
     for i in range(4):
         qml.RY(weights[i], wires=i)
@@ -16,16 +16,17 @@ def rotation_circuit(inputs, weights):
     return [qml.expval(qml.PauliZ(i)) for i in range(4)]
 
 
-strongly_entangled_circuit_shapes = {"weights": (8,)}
+strongly_entangled_circuit_shapes = {"weights": (1, 12)}
 @qml.qnode(dev, interface="torch", diff_method="adjoint")
 def strongly_entangled_circuit(inputs, weights):
     for i in range(4):
         qml.RY(inputs[i] * np.pi, wires=i)
         
-    for i in range(4):
-        qml.RZ(weights[i], wires=i)
-    for j in range(4):
-        qml.RX(weights[j], wires=j)
+    for W in weights:
+        qml.Rot(W[0], W[1], W[2], wires=0)
+        qml.Rot(W[3], W[4], W[5], wires=1)
+        qml.Rot(W[6], W[7], W[8], wires=2)
+        qml.Rot(W[9], W[10], W[11], wires=3)
         
     for k in range(3):
         qml.CNOT(wires=[k, k+1]) 

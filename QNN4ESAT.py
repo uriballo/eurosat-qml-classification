@@ -5,6 +5,7 @@ import torch.optim as optim
 import pennylane.qnn as qnn
 
 from circuits import rotation_circuit, rotation_circuit_shapes
+from circuits import strongly_entangled_circuit, strongly_entangled_circuit_shapes
 
 class QNN4ESAT(nn.Module):
     def __init__(self):
@@ -16,7 +17,7 @@ class QNN4ESAT(nn.Module):
         self.fc1 = nn.Linear(512, 64)
         self.fc2 = nn.Linear(64, 4)
         
-        self.qlayer = qnn.TorchLayer(rotation_circuit, rotation_circuit_shapes)
+        self.qlayer = qnn.TorchLayer(strongly_entangled_circuit, strongly_entangled_circuit_shapes)
         self.fc3 = nn.Linear(4, 10)
         
     def forward(self, x):
