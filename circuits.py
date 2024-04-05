@@ -16,7 +16,7 @@ def rotation_circuit(inputs, weights):
     return [qml.expval(qml.PauliZ(i)) for i in range(4)]
 
 
-strongly_entangled_circuit_shapes = {"weights": (4,)}
+strongly_entangled_circuit_shapes = {"weights": (8,)}
 @qml.qnode(dev, interface="torch", diff_method="adjoint")
 def strongly_entangled_circuit(inputs, weights):
     for i in range(4):
