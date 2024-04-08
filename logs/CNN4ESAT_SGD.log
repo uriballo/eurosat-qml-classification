@@ -1,0 +1,462 @@
+Class 0: 2700 members
+Class 1: 2700 members
+Class 2: 2700 members
+Class 3: 2250 members
+Class 4: 2250 members
+Class 5: 1800 members
+Class 6: 2250 members
+Class 7: 2700 members
+Class 8: 2250 members
+Class 9: 2700 members
+MPS available
+
+[i] Epoch: 0 | Batch: 48/48 [######### ] | Loss: 2.2780 | Batch Time: 1.75s (lr=0.0025) | Accuracy: 17.78%
+        [t] Epoch 0 completed in 54.11 seconds |  Loss: 2.2848 | Accuracy: 17.78%
+        [>] Test Loss: 2.2801 | Test Accuracy: 19.30%
+[i] Epoch: 1 | Batch: 48/48 [######### ] | Loss: 2.2656 | Batch Time: 0.40s (lr=0.0025) | Accuracy: 22.00%
+        [t] Epoch 1 completed in 50.67 seconds |  Loss: 2.2667 | Accuracy: 22.00%
+        [>] Test Loss: 2.2636 | Test Accuracy: 22.04%
+[i] Epoch: 2 | Batch: 48/48 [######### ] | Loss: 2.2565 | Batch Time: 0.56s (lr=0.0025) | Accuracy: 23.02%
+        [t] Epoch 2 completed in 52.21 seconds |  Loss: 2.2495 | Accuracy: 23.02%
+        [>] Test Loss: 2.2461 | Test Accuracy: 22.81%
+[i] Epoch: 3 | Batch: 48/48 [######### ] | Loss: 2.2166 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 26.37%
+        [t] Epoch 3 completed in 55.61 seconds |  Loss: 2.2336 | Accuracy: 26.37%
+        [>] Test Loss: 2.2320 | Test Accuracy: 26.63%
+[i] Epoch: 4 | Batch: 48/48 [######### ] | Loss: 2.2248 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 27.52%
+        [t] Epoch 4 completed in 52.73 seconds |  Loss: 2.2214 | Accuracy: 27.52%
+        [>] Test Loss: 2.2196 | Test Accuracy: 27.74%
+[i] Epoch: 5 | Batch: 48/48 [######### ] | Loss: 2.2131 | Batch Time: 0.48s (lr=0.0025) | Accuracy: 28.06%
+        [t] Epoch 5 completed in 51.56 seconds |  Loss: 2.2113 | Accuracy: 28.06%
+        [>] Test Loss: 2.2123 | Test Accuracy: 27.07%
+[i] Epoch: 6 | Batch: 48/48 [######### ] | Loss: 2.1933 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 28.22%
+        [t] Epoch 6 completed in 51.09 seconds |  Loss: 2.2019 | Accuracy: 28.22%
+        [>] Test Loss: 2.2023 | Test Accuracy: 27.89%
+[i] Epoch: 7 | Batch: 48/48 [######### ] | Loss: 2.1917 | Batch Time: 0.58s (lr=0.0025) | Accuracy: 28.77%
+        [t] Epoch 7 completed in 56.90 seconds |  Loss: 2.1923 | Accuracy: 28.77%
+        [>] Test Loss: 2.1977 | Test Accuracy: 27.59%
+[i] Epoch: 8 | Batch: 48/48 [######### ] | Loss: 2.1810 | Batch Time: 0.78s (lr=0.0025) | Accuracy: 29.97%
+        [t] Epoch 8 completed in 80.31 seconds |  Loss: 2.1827 | Accuracy: 29.97%
+        [>] Test Loss: 2.1919 | Test Accuracy: 27.15%
+[i] Epoch: 9 | Batch: 48/48 [######### ] | Loss: 2.1489 | Batch Time: 0.89s (lr=0.0025) | Accuracy: 32.58%
+        [t] Epoch 9 completed in 90.58 seconds |  Loss: 2.1732 | Accuracy: 32.58%
+        [>] Test Loss: 2.1834 | Test Accuracy: 30.41%
+[i] Epoch: 10 | Batch: 48/48 [######### ] | Loss: 2.1566 | Batch Time: 1.02s (lr=0.0025) | Accuracy: 37.42%
+        [t] Epoch 10 completed in 88.61 seconds |  Loss: 2.1606 | Accuracy: 37.42%
+        [>] Test Loss: 2.1695 | Test Accuracy: 35.70%
+[i] Epoch: 11 | Batch: 48/48 [######### ] | Loss: 2.1513 | Batch Time: 0.54s (lr=0.0025) | Accuracy: 41.44%
+        [t] Epoch 11 completed in 78.33 seconds |  Loss: 2.1474 | Accuracy: 41.44%
+        [>] Test Loss: 2.1631 | Test Accuracy: 37.11%
+[i] Epoch: 12 | Batch: 48/48 [######### ] | Loss: 2.1505 | Batch Time: 0.99s (lr=0.0025) | Accuracy: 43.21%
+        [t] Epoch 12 completed in 77.81 seconds |  Loss: 2.1320 | Accuracy: 43.21%
+        [>] Test Loss: 2.1516 | Test Accuracy: 38.26%
+[i] Epoch: 13 | Batch: 48/48 [######### ] | Loss: 2.0974 | Batch Time: 0.54s (lr=0.0025) | Accuracy: 44.28%
+        [t] Epoch 13 completed in 75.24 seconds |  Loss: 2.1141 | Accuracy: 44.28%
+        [>] Test Loss: 2.1352 | Test Accuracy: 40.11%
+[i] Epoch: 14 | Batch: 48/48 [######### ] | Loss: 2.0688 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 45.46%
+        [t] Epoch 14 completed in 74.74 seconds |  Loss: 2.0949 | Accuracy: 45.46%
+        [>] Test Loss: 2.1180 | Test Accuracy: 41.41%
+[i] Epoch: 15 | Batch: 48/48 [######### ] | Loss: 2.0759 | Batch Time: 1.02s (lr=0.0025) | Accuracy: 45.73%
+        [t] Epoch 15 completed in 76.15 seconds |  Loss: 2.0807 | Accuracy: 45.73%
+        [>] Test Loss: 2.0970 | Test Accuracy: 43.52%
+[i] Epoch: 16 | Batch: 48/48 [######### ] | Loss: 2.0317 | Batch Time: 0.64s (lr=0.0025) | Accuracy: 46.23%
+        [t] Epoch 16 completed in 75.34 seconds |  Loss: 2.0661 | Accuracy: 46.23%
+        [>] Test Loss: 2.0932 | Test Accuracy: 42.81%
+[i] Epoch: 17 | Batch: 48/48 [######### ] | Loss: 2.0445 | Batch Time: 0.63s (lr=0.0025) | Accuracy: 46.99%
+        [t] Epoch 17 completed in 66.62 seconds |  Loss: 2.0520 | Accuracy: 46.99%
+        [>] Test Loss: 2.0833 | Test Accuracy: 43.56%
+[i] Epoch: 18 | Batch: 48/48 [######### ] | Loss: 1.9996 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 47.26%
+        [t] Epoch 18 completed in 58.87 seconds |  Loss: 2.0412 | Accuracy: 47.26%
+        [>] Test Loss: 2.0626 | Test Accuracy: 45.41%
+[i] Epoch: 19 | Batch: 48/48 [######### ] | Loss: 2.0542 | Batch Time: 0.60s (lr=0.0025) | Accuracy: 47.31%
+        [t] Epoch 19 completed in 58.59 seconds |  Loss: 2.0339 | Accuracy: 47.31%
+        [>] Test Loss: 2.0508 | Test Accuracy: 46.26%
+[i] Epoch: 20 | Batch: 48/48 [######### ] | Loss: 2.0481 | Batch Time: 0.59s (lr=0.0025) | Accuracy: 47.47%
+        [t] Epoch 20 completed in 58.06 seconds |  Loss: 2.0268 | Accuracy: 47.47%
+        [>] Test Loss: 2.0564 | Test Accuracy: 44.41%
+[i] Epoch: 21 | Batch: 48/48 [######### ] | Loss: 2.0096 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 47.85%
+        [t] Epoch 21 completed in 59.28 seconds |  Loss: 2.0185 | Accuracy: 47.85%
+        [>] Test Loss: 2.0617 | Test Accuracy: 43.48%
+[i] Epoch: 22 | Batch: 48/48 [######### ] | Loss: 1.9604 | Batch Time: 0.80s (lr=0.0025) | Accuracy: 47.97%
+        [t] Epoch 22 completed in 59.89 seconds |  Loss: 2.0131 | Accuracy: 47.97%
+        [>] Test Loss: 2.0548 | Test Accuracy: 43.63%
+[i] Epoch: 23 | Batch: 48/48 [######### ] | Loss: 2.0228 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 48.09%
+        [t] Epoch 23 completed in 59.46 seconds |  Loss: 2.0094 | Accuracy: 48.09%
+        [>] Test Loss: 2.0466 | Test Accuracy: 43.78%
+[i] Epoch: 24 | Batch: 48/48 [######### ] | Loss: 1.9752 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 48.26%
+        [t] Epoch 24 completed in 58.36 seconds |  Loss: 2.0041 | Accuracy: 48.26%
+        [>] Test Loss: 2.0335 | Test Accuracy: 45.15%
+[i] Epoch: 25 | Batch: 48/48 [######### ] | Loss: 2.0403 | Batch Time: 0.66s (lr=0.0025) | Accuracy: 48.14%
+        [t] Epoch 25 completed in 59.10 seconds |  Loss: 2.0028 | Accuracy: 48.14%
+        [>] Test Loss: 2.0266 | Test Accuracy: 45.74%
+[i] Epoch: 26 | Batch: 48/48 [######### ] | Loss: 1.9717 | Batch Time: 0.45s (lr=0.0025) | Accuracy: 48.40%
+        [t] Epoch 26 completed in 58.38 seconds |  Loss: 1.9974 | Accuracy: 48.40%
+        [>] Test Loss: 2.0073 | Test Accuracy: 47.67%
+[i] Epoch: 27 | Batch: 48/48 [######### ] | Loss: 1.9634 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 48.38%
+        [t] Epoch 27 completed in 59.24 seconds |  Loss: 1.9950 | Accuracy: 48.38%
+        [>] Test Loss: 2.0083 | Test Accuracy: 46.85%
+[i] Epoch: 28 | Batch: 48/48 [######### ] | Loss: 1.9747 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 48.72%
+        [t] Epoch 28 completed in 59.47 seconds |  Loss: 1.9901 | Accuracy: 48.72%
+        [>] Test Loss: 2.0032 | Test Accuracy: 47.44%
+[i] Epoch: 29 | Batch: 48/48 [######### ] | Loss: 2.0159 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 48.72%
+        [t] Epoch 29 completed in 58.27 seconds |  Loss: 1.9890 | Accuracy: 48.72%
+        [>] Test Loss: 1.9968 | Test Accuracy: 47.93%
+[i] Epoch: 30 | Batch: 48/48 [######### ] | Loss: 1.9984 | Batch Time: 0.59s (lr=0.0025) | Accuracy: 48.65%
+        [t] Epoch 30 completed in 59.56 seconds |  Loss: 1.9870 | Accuracy: 48.65%
+        [>] Test Loss: 1.9938 | Test Accuracy: 48.00%
+[i] Epoch: 31 | Batch: 48/48 [######### ] | Loss: 2.0258 | Batch Time: 0.63s (lr=0.0025) | Accuracy: 48.79%
+        [t] Epoch 31 completed in 59.38 seconds |  Loss: 1.9847 | Accuracy: 48.79%
+        [>] Test Loss: 1.9954 | Test Accuracy: 47.48%
+[i] Epoch: 32 | Batch: 48/48 [######### ] | Loss: 1.9965 | Batch Time: 0.61s (lr=0.0025) | Accuracy: 48.96%
+        [t] Epoch 32 completed in 57.98 seconds |  Loss: 1.9816 | Accuracy: 48.96%
+        [>] Test Loss: 1.9847 | Test Accuracy: 48.63%
+[i] Epoch: 33 | Batch: 48/48 [######### ] | Loss: 1.9807 | Batch Time: 0.58s (lr=0.0025) | Accuracy: 48.99%
+        [t] Epoch 33 completed in 57.70 seconds |  Loss: 1.9795 | Accuracy: 48.99%
+        [>] Test Loss: 1.9792 | Test Accuracy: 49.07%
+[i] Epoch: 34 | Batch: 48/48 [######### ] | Loss: 1.9873 | Batch Time: 0.75s (lr=0.0025) | Accuracy: 48.83%
+        [t] Epoch 34 completed in 57.72 seconds |  Loss: 1.9795 | Accuracy: 48.83%
+        [>] Test Loss: 1.9802 | Test Accuracy: 48.52%
+[i] Epoch: 35 | Batch: 48/48 [######### ] | Loss: 1.9661 | Batch Time: 0.78s (lr=0.0025) | Accuracy: 49.07%
+        [t] Epoch 35 completed in 59.05 seconds |  Loss: 1.9742 | Accuracy: 49.07%
+        [>] Test Loss: 1.9822 | Test Accuracy: 48.52%
+[i] Epoch: 36 | Batch: 48/48 [######### ] | Loss: 1.9366 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 48.99%
+        [t] Epoch 36 completed in 59.82 seconds |  Loss: 1.9731 | Accuracy: 48.99%
+        [>] Test Loss: 1.9875 | Test Accuracy: 47.96%
+[i] Epoch: 37 | Batch: 48/48 [######### ] | Loss: 1.9625 | Batch Time: 0.44s (lr=0.0025) | Accuracy: 48.71%
+        [t] Epoch 37 completed in 59.42 seconds |  Loss: 1.9730 | Accuracy: 48.71%
+        [>] Test Loss: 1.9809 | Test Accuracy: 48.37%
+[i] Epoch: 38 | Batch: 48/48 [######### ] | Loss: 1.9861 | Batch Time: 0.47s (lr=0.0025) | Accuracy: 49.28%
+        [t] Epoch 38 completed in 59.00 seconds |  Loss: 1.9655 | Accuracy: 49.28%
+        [>] Test Loss: 1.9789 | Test Accuracy: 48.41%
+[i] Epoch: 39 | Batch: 48/48 [######### ] | Loss: 1.9228 | Batch Time: 0.52s (lr=0.0025) | Accuracy: 51.36%
+        [t] Epoch 39 completed in 60.44 seconds |  Loss: 1.9609 | Accuracy: 51.36%
+        [>] Test Loss: 1.9802 | Test Accuracy: 47.89%
+[i] Epoch: 40 | Batch: 48/48 [######### ] | Loss: 1.9902 | Batch Time: 0.48s (lr=0.0025) | Accuracy: 53.33%
+        [t] Epoch 40 completed in 59.34 seconds |  Loss: 1.9564 | Accuracy: 53.33%
+        [>] Test Loss: 1.9800 | Test Accuracy: 47.78%
+[i] Epoch: 41 | Batch: 48/48 [######### ] | Loss: 1.9673 | Batch Time: 0.43s (lr=0.0025) | Accuracy: 54.17%
+        [t] Epoch 41 completed in 59.65 seconds |  Loss: 1.9500 | Accuracy: 54.17%
+        [>] Test Loss: 1.9754 | Test Accuracy: 49.93%
+[i] Epoch: 42 | Batch: 48/48 [######### ] | Loss: 1.8753 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 54.49%
+        [t] Epoch 42 completed in 60.24 seconds |  Loss: 1.9451 | Accuracy: 54.49%
+        [>] Test Loss: 1.9655 | Test Accuracy: 52.63%
+[i] Epoch: 43 | Batch: 48/48 [######### ] | Loss: 1.9444 | Batch Time: 0.60s (lr=0.0025) | Accuracy: 55.03%
+        [t] Epoch 43 completed in 59.93 seconds |  Loss: 1.9382 | Accuracy: 55.03%
+        [>] Test Loss: 1.9583 | Test Accuracy: 53.22%
+[i] Epoch: 44 | Batch: 48/48 [######### ] | Loss: 1.9196 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 55.05%
+        [t] Epoch 44 completed in 57.95 seconds |  Loss: 1.9342 | Accuracy: 55.05%
+        [>] Test Loss: 1.9618 | Test Accuracy: 52.56%
+[i] Epoch: 45 | Batch: 48/48 [######### ] | Loss: 1.8843 | Batch Time: 0.78s (lr=0.0025) | Accuracy: 55.01%
+        [t] Epoch 45 completed in 59.08 seconds |  Loss: 1.9303 | Accuracy: 55.01%
+        [>] Test Loss: 1.9554 | Test Accuracy: 53.11%
+[i] Epoch: 46 | Batch: 48/48 [######### ] | Loss: 1.8635 | Batch Time: 0.44s (lr=0.0025) | Accuracy: 55.30%
+        [t] Epoch 46 completed in 58.58 seconds |  Loss: 1.9252 | Accuracy: 55.30%
+        [>] Test Loss: 1.9470 | Test Accuracy: 54.19%
+[i] Epoch: 47 | Batch: 48/48 [######### ] | Loss: 1.9492 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 55.47%
+        [t] Epoch 47 completed in 58.62 seconds |  Loss: 1.9230 | Accuracy: 55.47%
+        [>] Test Loss: 1.9501 | Test Accuracy: 53.30%
+[i] Epoch: 48 | Batch: 48/48 [######### ] | Loss: 1.9457 | Batch Time: 0.73s (lr=0.0025) | Accuracy: 55.53%
+        [t] Epoch 48 completed in 58.92 seconds |  Loss: 1.9203 | Accuracy: 55.53%
+        [>] Test Loss: 1.9455 | Test Accuracy: 53.56%
+[i] Epoch: 49 | Batch: 48/48 [######### ] | Loss: 1.8965 | Batch Time: 0.45s (lr=0.0025) | Accuracy: 55.55%
+        [t] Epoch 49 completed in 59.38 seconds |  Loss: 1.9173 | Accuracy: 55.55%
+        [>] Test Loss: 1.9432 | Test Accuracy: 53.59%
+[i] Epoch: 50 | Batch: 48/48 [######### ] | Loss: 1.8739 | Batch Time: 0.93s (lr=0.0025) | Accuracy: 55.64%
+        [t] Epoch 50 completed in 60.26 seconds |  Loss: 1.9156 | Accuracy: 55.64%
+        [>] Test Loss: 1.9411 | Test Accuracy: 53.70%
+[i] Epoch: 51 | Batch: 48/48 [######### ] | Loss: 1.8940 | Batch Time: 0.64s (lr=0.0025) | Accuracy: 56.08%
+        [t] Epoch 51 completed in 59.63 seconds |  Loss: 1.9108 | Accuracy: 56.08%
+        [>] Test Loss: 1.9281 | Test Accuracy: 54.11%
+[i] Epoch: 52 | Batch: 48/48 [######### ] | Loss: 1.9473 | Batch Time: 0.48s (lr=0.0025) | Accuracy: 56.22%
+        [t] Epoch 52 completed in 59.89 seconds |  Loss: 1.9091 | Accuracy: 56.22%
+        [>] Test Loss: 1.9354 | Test Accuracy: 54.37%
+[i] Epoch: 53 | Batch: 48/48 [######### ] | Loss: 1.9708 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 55.89%
+        [t] Epoch 53 completed in 59.36 seconds |  Loss: 1.9112 | Accuracy: 55.89%
+        [>] Test Loss: 1.9250 | Test Accuracy: 55.37%
+[i] Epoch: 54 | Batch: 48/48 [######### ] | Loss: 1.8939 | Batch Time: 0.51s (lr=0.0025) | Accuracy: 55.68%
+        [t] Epoch 54 completed in 59.65 seconds |  Loss: 1.9119 | Accuracy: 55.68%
+        [>] Test Loss: 1.9265 | Test Accuracy: 54.41%
+[i] Epoch: 55 | Batch: 48/48 [######### ] | Loss: 1.9061 | Batch Time: 0.44s (lr=0.0025) | Accuracy: 55.87%
+        [t] Epoch 55 completed in 59.61 seconds |  Loss: 1.9098 | Accuracy: 55.87%
+        [>] Test Loss: 1.9264 | Test Accuracy: 55.07%
+[i] Epoch: 56 | Batch: 48/48 [######### ] | Loss: 1.9076 | Batch Time: 0.64s (lr=0.0025) | Accuracy: 56.44%
+        [t] Epoch 56 completed in 60.17 seconds |  Loss: 1.9043 | Accuracy: 56.44%
+        [>] Test Loss: 1.9313 | Test Accuracy: 54.48%
+[i] Epoch: 57 | Batch: 48/48 [######### ] | Loss: 1.8784 | Batch Time: 0.59s (lr=0.0025) | Accuracy: 56.14%
+        [t] Epoch 57 completed in 59.65 seconds |  Loss: 1.9058 | Accuracy: 56.14%
+        [>] Test Loss: 1.9148 | Test Accuracy: 55.33%
+[i] Epoch: 58 | Batch: 48/48 [######### ] | Loss: 1.8953 | Batch Time: 0.61s (lr=0.0025) | Accuracy: 56.56%
+        [t] Epoch 58 completed in 58.20 seconds |  Loss: 1.9020 | Accuracy: 56.56%
+        [>] Test Loss: 1.9195 | Test Accuracy: 55.26%
+[i] Epoch: 59 | Batch: 48/48 [######### ] | Loss: 1.9000 | Batch Time: 0.67s (lr=0.0025) | Accuracy: 56.55%
+        [t] Epoch 59 completed in 57.66 seconds |  Loss: 1.9014 | Accuracy: 56.55%
+        [>] Test Loss: 1.9296 | Test Accuracy: 54.26%
+[i] Epoch: 60 | Batch: 48/48 [######### ] | Loss: 1.9393 | Batch Time: 0.59s (lr=0.0025) | Accuracy: 56.51%
+        [t] Epoch 60 completed in 58.46 seconds |  Loss: 1.9018 | Accuracy: 56.51%
+        [>] Test Loss: 1.9271 | Test Accuracy: 55.04%
+[i] Epoch: 61 | Batch: 48/48 [######### ] | Loss: 1.8735 | Batch Time: 0.47s (lr=0.0025) | Accuracy: 56.80%
+        [t] Epoch 61 completed in 58.39 seconds |  Loss: 1.8981 | Accuracy: 56.80%
+        [>] Test Loss: 1.9224 | Test Accuracy: 54.89%
+[i] Epoch: 62 | Batch: 48/48 [######### ] | Loss: 1.8372 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 56.73%
+        [t] Epoch 62 completed in 59.82 seconds |  Loss: 1.8979 | Accuracy: 56.73%
+        [>] Test Loss: 1.9226 | Test Accuracy: 55.00%
+[i] Epoch: 63 | Batch: 48/48 [######### ] | Loss: 1.8800 | Batch Time: 0.49s (lr=0.0025) | Accuracy: 56.88%
+        [t] Epoch 63 completed in 59.25 seconds |  Loss: 1.8967 | Accuracy: 56.88%
+        [>] Test Loss: 1.9192 | Test Accuracy: 55.19%
+[i] Epoch: 64 | Batch: 48/48 [######### ] | Loss: 1.8978 | Batch Time: 0.47s (lr=0.0025) | Accuracy: 56.86%
+        [t] Epoch 64 completed in 59.43 seconds |  Loss: 1.8969 | Accuracy: 56.86%
+        [>] Test Loss: 1.9197 | Test Accuracy: 54.96%
+[i] Epoch: 65 | Batch: 48/48 [######### ] | Loss: 1.8446 | Batch Time: 0.45s (lr=0.0025) | Accuracy: 57.20%
+        [t] Epoch 65 completed in 59.26 seconds |  Loss: 1.8934 | Accuracy: 57.20%
+        [>] Test Loss: 1.9037 | Test Accuracy: 56.19%
+[i] Epoch: 66 | Batch: 48/48 [######### ] | Loss: 1.8873 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 57.03%
+        [t] Epoch 66 completed in 58.69 seconds |  Loss: 1.8949 | Accuracy: 57.03%
+        [>] Test Loss: 1.9090 | Test Accuracy: 56.33%
+[i] Epoch: 67 | Batch: 48/48 [######### ] | Loss: 1.8494 | Batch Time: 0.60s (lr=0.0025) | Accuracy: 57.12%
+        [t] Epoch 67 completed in 59.86 seconds |  Loss: 1.8935 | Accuracy: 57.12%
+        [>] Test Loss: 1.9085 | Test Accuracy: 56.41%
+[i] Epoch: 68 | Batch: 48/48 [######### ] | Loss: 1.9023 | Batch Time: 0.57s (lr=0.0025) | Accuracy: 56.96%
+        [t] Epoch 68 completed in 59.83 seconds |  Loss: 1.8952 | Accuracy: 56.96%
+        [>] Test Loss: 1.9053 | Test Accuracy: 56.22%
+[i] Epoch: 69 | Batch: 48/48 [######### ] | Loss: 1.8767 | Batch Time: 0.59s (lr=0.0025) | Accuracy: 57.29%
+        [t] Epoch 69 completed in 60.26 seconds |  Loss: 1.8922 | Accuracy: 57.29%
+        [>] Test Loss: 1.9096 | Test Accuracy: 55.78%
+[i] Epoch: 70 | Batch: 48/48 [######### ] | Loss: 1.8780 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 57.18%
+        [t] Epoch 70 completed in 59.41 seconds |  Loss: 1.8929 | Accuracy: 57.18%
+        [>] Test Loss: 1.9208 | Test Accuracy: 54.81%
+[i] Epoch: 71 | Batch: 48/48 [######### ] | Loss: 1.8591 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 57.26%
+        [t] Epoch 71 completed in 58.63 seconds |  Loss: 1.8918 | Accuracy: 57.26%
+        [>] Test Loss: 1.9142 | Test Accuracy: 55.81%
+[i] Epoch: 72 | Batch: 48/48 [######### ] | Loss: 1.8548 | Batch Time: 0.48s (lr=0.0025) | Accuracy: 57.13%
+        [t] Epoch 72 completed in 57.80 seconds |  Loss: 1.8929 | Accuracy: 57.13%
+        [>] Test Loss: 1.9148 | Test Accuracy: 55.93%
+[i] Epoch: 73 | Batch: 48/48 [######### ] | Loss: 1.9063 | Batch Time: 0.45s (lr=0.0025) | Accuracy: 57.26%
+        [t] Epoch 73 completed in 57.87 seconds |  Loss: 1.8919 | Accuracy: 57.26%
+        [>] Test Loss: 1.9142 | Test Accuracy: 55.52%
+[i] Epoch: 74 | Batch: 48/48 [######### ] | Loss: 1.8586 | Batch Time: 0.63s (lr=0.0025) | Accuracy: 57.34%
+        [t] Epoch 74 completed in 58.04 seconds |  Loss: 1.8906 | Accuracy: 57.34%
+        [>] Test Loss: 1.9128 | Test Accuracy: 55.63%
+[i] Epoch: 75 | Batch: 48/48 [######### ] | Loss: 1.9324 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 57.38%
+        [t] Epoch 75 completed in 58.84 seconds |  Loss: 1.8904 | Accuracy: 57.38%
+        [>] Test Loss: 1.9365 | Test Accuracy: 53.22%
+[i] Epoch: 76 | Batch: 48/48 [######### ] | Loss: 1.8909 | Batch Time: 0.81s (lr=0.0025) | Accuracy: 57.36%
+        [t] Epoch 76 completed in 60.56 seconds |  Loss: 1.8902 | Accuracy: 57.36%
+        [>] Test Loss: 1.9101 | Test Accuracy: 56.11%
+[i] Epoch: 77 | Batch: 48/48 [######### ] | Loss: 1.8472 | Batch Time: 0.48s (lr=0.0025) | Accuracy: 57.35%
+        [t] Epoch 77 completed in 58.65 seconds |  Loss: 1.8900 | Accuracy: 57.35%
+        [>] Test Loss: 1.9079 | Test Accuracy: 55.70%
+[i] Epoch: 78 | Batch: 48/48 [######### ] | Loss: 1.9113 | Batch Time: 0.55s (lr=0.0025) | Accuracy: 57.49%
+        [t] Epoch 78 completed in 59.66 seconds |  Loss: 1.8891 | Accuracy: 57.49%
+        [>] Test Loss: 1.9086 | Test Accuracy: 55.81%
+[i] Epoch: 79 | Batch: 48/48 [######### ] | Loss: 1.9475 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 57.59%
+        [t] Epoch 79 completed in 59.92 seconds |  Loss: 1.8884 | Accuracy: 57.59%
+        [>] Test Loss: 1.9117 | Test Accuracy: 55.52%
+[i] Epoch: 80 | Batch: 48/48 [######### ] | Loss: 1.8941 | Batch Time: 0.49s (lr=0.0025) | Accuracy: 57.33%
+        [t] Epoch 80 completed in 60.31 seconds |  Loss: 1.8907 | Accuracy: 57.33%
+        [>] Test Loss: 1.9109 | Test Accuracy: 55.44%
+[i] Epoch: 81 | Batch: 48/48 [######### ] | Loss: 1.9225 | Batch Time: 0.84s (lr=0.0025) | Accuracy: 57.49%
+        [t] Epoch 81 completed in 59.96 seconds |  Loss: 1.8884 | Accuracy: 57.49%
+        [>] Test Loss: 1.9100 | Test Accuracy: 55.67%
+[i] Epoch: 82 | Batch: 48/48 [######### ] | Loss: 1.8624 | Batch Time: 0.59s (lr=0.0025) | Accuracy: 57.67%
+        [t] Epoch 82 completed in 59.76 seconds |  Loss: 1.8863 | Accuracy: 57.67%
+        [>] Test Loss: 1.9128 | Test Accuracy: 55.15%
+[i] Epoch: 83 | Batch: 48/48 [######### ] | Loss: 1.9138 | Batch Time: 0.49s (lr=0.0025) | Accuracy: 57.66%
+        [t] Epoch 83 completed in 59.49 seconds |  Loss: 1.8866 | Accuracy: 57.66%
+        [>] Test Loss: 1.9135 | Test Accuracy: 55.44%
+[i] Epoch: 84 | Batch: 48/48 [######### ] | Loss: 1.8827 | Batch Time: 0.53s (lr=0.0025) | Accuracy: 57.60%
+        [t] Epoch 84 completed in 59.44 seconds |  Loss: 1.8868 | Accuracy: 57.60%
+        [>] Test Loss: 1.9104 | Test Accuracy: 55.78%
+[i] Epoch: 85 | Batch: 48/48 [######### ] | Loss: 1.8489 | Batch Time: 0.47s (lr=0.0025) | Accuracy: 57.56%
+        [t] Epoch 85 completed in 59.71 seconds |  Loss: 1.8866 | Accuracy: 57.56%
+        [>] Test Loss: 1.9239 | Test Accuracy: 53.67%
+[i] Epoch: 86 | Batch: 48/48 [######### ] | Loss: 1.8602 | Batch Time: 0.48s (lr=0.0025) | Accuracy: 57.58%
+        [t] Epoch 86 completed in 59.83 seconds |  Loss: 1.8864 | Accuracy: 57.58%
+        [>] Test Loss: 1.9343 | Test Accuracy: 53.30%
+[i] Epoch: 87 | Batch: 48/48 [######### ] | Loss: 1.9140 | Batch Time: 0.58s (lr=0.0025) | Accuracy: 57.58%
+        [t] Epoch 87 completed in 57.74 seconds |  Loss: 1.8868 | Accuracy: 57.58%
+        [>] Test Loss: 1.9295 | Test Accuracy: 53.74%
+[i] Epoch: 88 | Batch: 48/48 [######### ] | Loss: 1.8622 | Batch Time: 0.47s (lr=0.0025) | Accuracy: 57.79%
+        [t] Epoch 88 completed in 58.83 seconds |  Loss: 1.8842 | Accuracy: 57.79%
+        [>] Test Loss: 1.9178 | Test Accuracy: 54.78%
+[i] Epoch: 89 | Batch: 48/48 [######### ] | Loss: 1.9109 | Batch Time: 0.74s (lr=0.0025) | Accuracy: 57.66%
+        [t] Epoch 89 completed in 58.19 seconds |  Loss: 1.8857 | Accuracy: 57.66%
+        [>] Test Loss: 1.9027 | Test Accuracy: 56.44%
+[i] Epoch: 90 | Batch: 48/48 [######### ] | Loss: 1.8772 | Batch Time: 0.47s (lr=0.0025) | Accuracy: 58.05%
+        [t] Epoch 90 completed in 58.93 seconds |  Loss: 1.8818 | Accuracy: 58.05%
+        [>] Test Loss: 1.9117 | Test Accuracy: 55.30%
+[i] Epoch: 91 | Batch: 48/48 [######### ] | Loss: 1.8324 | Batch Time: 0.61s (lr=0.0025) | Accuracy: 57.57%
+        [t] Epoch 91 completed in 60.27 seconds |  Loss: 1.8857 | Accuracy: 57.57%
+        [>] Test Loss: 1.9122 | Test Accuracy: 55.22%
+[i] Epoch: 92 | Batch: 48/48 [######### ] | Loss: 1.8653 | Batch Time: 0.52s (lr=0.0025) | Accuracy: 57.51%
+        [t] Epoch 92 completed in 59.91 seconds |  Loss: 1.8863 | Accuracy: 57.51%
+        [>] Test Loss: 1.9128 | Test Accuracy: 55.26%
+[i] Epoch: 93 | Batch: 48/48 [######### ] | Loss: 1.8775 | Batch Time: 0.57s (lr=0.0025) | Accuracy: 57.80%
+        [t] Epoch 93 completed in 59.46 seconds |  Loss: 1.8840 | Accuracy: 57.80%
+        [>] Test Loss: 1.8867 | Test Accuracy: 57.19%
+[i] Epoch: 94 | Batch: 48/48 [######### ] | Loss: 1.8698 | Batch Time: 0.75s (lr=0.0025) | Accuracy: 57.96%
+        [t] Epoch 94 completed in 59.78 seconds |  Loss: 1.8817 | Accuracy: 57.96%
+        [>] Test Loss: 1.9039 | Test Accuracy: 56.26%
+[i] Epoch: 95 | Batch: 48/48 [######### ] | Loss: 1.8925 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 57.89%
+        [t] Epoch 95 completed in 60.50 seconds |  Loss: 1.8829 | Accuracy: 57.89%
+        [>] Test Loss: 1.9041 | Test Accuracy: 55.81%
+[i] Epoch: 96 | Batch: 48/48 [######### ] | Loss: 1.8973 | Batch Time: 0.58s (lr=0.0025) | Accuracy: 57.77%
+        [t] Epoch 96 completed in 60.57 seconds |  Loss: 1.8841 | Accuracy: 57.77%
+        [>] Test Loss: 1.8930 | Test Accuracy: 57.07%
+[i] Epoch: 97 | Batch: 48/48 [######### ] | Loss: 1.8898 | Batch Time: 0.57s (lr=0.0025) | Accuracy: 57.93%
+        [t] Epoch 97 completed in 60.56 seconds |  Loss: 1.8825 | Accuracy: 57.93%
+        [>] Test Loss: 1.8978 | Test Accuracy: 57.15%
+[i] Epoch: 98 | Batch: 48/48 [######### ] | Loss: 1.9434 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 57.86%
+        [t] Epoch 98 completed in 59.61 seconds |  Loss: 1.8831 | Accuracy: 57.86%
+        [>] Test Loss: 1.9037 | Test Accuracy: 56.44%
+[i] Epoch: 99 | Batch: 48/48 [######### ] | Loss: 1.8729 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 57.57%
+        [t] Epoch 99 completed in 60.31 seconds |  Loss: 1.8850 | Accuracy: 57.57%
+        [>] Test Loss: 1.9107 | Test Accuracy: 55.44%
+[i] Epoch: 100 | Batch: 48/48 [######### ] | Loss: 1.8952 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 57.94%
+        [t] Epoch 100 completed in 59.17 seconds |  Loss: 1.8820 | Accuracy: 57.94%
+        [>] Test Loss: 1.9094 | Test Accuracy: 55.93%
+[i] Epoch: 101 | Batch: 48/48 [######### ] | Loss: 1.8866 | Batch Time: 0.42s (lr=0.0025) | Accuracy: 58.02%
+        [t] Epoch 101 completed in 59.24 seconds |  Loss: 1.8812 | Accuracy: 58.02%
+        [>] Test Loss: 1.9018 | Test Accuracy: 56.41%
+[i] Epoch: 102 | Batch: 48/48 [######### ] | Loss: 1.8875 | Batch Time: 0.51s (lr=0.0025) | Accuracy: 57.98%
+        [t] Epoch 102 completed in 59.75 seconds |  Loss: 1.8816 | Accuracy: 57.98%
+        [>] Test Loss: 1.8938 | Test Accuracy: 57.26%
+[i] Epoch: 103 | Batch: 48/48 [######### ] | Loss: 1.8618 | Batch Time: 1.03s (lr=0.0025) | Accuracy: 57.85%
+        [t] Epoch 103 completed in 59.54 seconds |  Loss: 1.8822 | Accuracy: 57.85%
+        [>] Test Loss: 1.8857 | Test Accuracy: 57.41%
+[i] Epoch: 104 | Batch: 48/48 [######### ] | Loss: 1.8605 | Batch Time: 0.71s (lr=0.0025) | Accuracy: 58.10%
+        [t] Epoch 104 completed in 58.96 seconds |  Loss: 1.8799 | Accuracy: 58.10%
+        [>] Test Loss: 1.9037 | Test Accuracy: 56.44%
+[i] Epoch: 105 | Batch: 48/48 [######### ] | Loss: 1.9377 | Batch Time: 0.61s (lr=0.0025) | Accuracy: 57.92%
+        [t] Epoch 105 completed in 59.35 seconds |  Loss: 1.8820 | Accuracy: 57.92%
+        [>] Test Loss: 1.9108 | Test Accuracy: 55.89%
+[i] Epoch: 106 | Batch: 48/48 [######### ] | Loss: 1.9156 | Batch Time: 0.63s (lr=0.0025) | Accuracy: 58.11%
+        [t] Epoch 106 completed in 59.25 seconds |  Loss: 1.8798 | Accuracy: 58.11%
+        [>] Test Loss: 1.8974 | Test Accuracy: 57.22%
+[i] Epoch: 107 | Batch: 48/48 [######### ] | Loss: 1.9029 | Batch Time: 0.44s (lr=0.0025) | Accuracy: 57.89%
+        [t] Epoch 107 completed in 59.69 seconds |  Loss: 1.8815 | Accuracy: 57.89%
+        [>] Test Loss: 1.9009 | Test Accuracy: 56.15%
+[i] Epoch: 108 | Batch: 48/48 [######### ] | Loss: 1.9263 | Batch Time: 0.62s (lr=0.0025) | Accuracy: 57.83%
+        [t] Epoch 108 completed in 59.65 seconds |  Loss: 1.8824 | Accuracy: 57.83%
+        [>] Test Loss: 1.9025 | Test Accuracy: 56.81%
+[i] Epoch: 109 | Batch: 48/48 [######### ] | Loss: 1.8212 | Batch Time: 0.60s (lr=0.0025) | Accuracy: 57.84%
+        [t] Epoch 109 completed in 62.18 seconds |  Loss: 1.8808 | Accuracy: 57.84%
+        [>] Test Loss: 1.9004 | Test Accuracy: 56.63%
+[i] Epoch: 110 | Batch: 48/48 [######### ] | Loss: 1.9134 | Batch Time: 0.58s (lr=0.0025) | Accuracy: 57.92%
+        [t] Epoch 110 completed in 60.51 seconds |  Loss: 1.8813 | Accuracy: 57.92%
+        [>] Test Loss: 1.8802 | Test Accuracy: 57.63%
+[i] Epoch: 111 | Batch: 48/48 [######### ] | Loss: 1.8897 | Batch Time: 0.49s (lr=0.0025) | Accuracy: 58.17%
+        [t] Epoch 111 completed in 59.97 seconds |  Loss: 1.8784 | Accuracy: 58.17%
+        [>] Test Loss: 1.8981 | Test Accuracy: 57.00%
+[i] Epoch: 112 | Batch: 48/48 [######### ] | Loss: 1.8616 | Batch Time: 0.68s (lr=0.0025) | Accuracy: 58.05%
+        [t] Epoch 112 completed in 60.73 seconds |  Loss: 1.8793 | Accuracy: 58.05%
+        [>] Test Loss: 1.8925 | Test Accuracy: 57.19%
+[i] Epoch: 113 | Batch: 48/48 [######### ] | Loss: 1.8987 | Batch Time: 0.68s (lr=0.0025) | Accuracy: 58.02%
+        [t] Epoch 113 completed in 60.82 seconds |  Loss: 1.8795 | Accuracy: 58.02%
+        [>] Test Loss: 1.8948 | Test Accuracy: 57.00%
+[i] Epoch: 114 | Batch: 48/48 [######### ] | Loss: 1.8846 | Batch Time: 0.77s (lr=0.0025) | Accuracy: 58.12%
+        [t] Epoch 114 completed in 59.88 seconds |  Loss: 1.8788 | Accuracy: 58.12%
+        [>] Test Loss: 1.8982 | Test Accuracy: 56.85%
+[i] Epoch: 115 | Batch: 48/48 [######### ] | Loss: 1.8833 | Batch Time: 0.81s (lr=0.0025) | Accuracy: 58.12%
+        [t] Epoch 115 completed in 59.96 seconds |  Loss: 1.8785 | Accuracy: 58.12%
+        [>] Test Loss: 1.9033 | Test Accuracy: 56.63%
+[i] Epoch: 116 | Batch: 48/48 [######### ] | Loss: 1.8876 | Batch Time: 0.65s (lr=0.0025) | Accuracy: 57.87%
+        [t] Epoch 116 completed in 59.37 seconds |  Loss: 1.8806 | Accuracy: 57.87%
+        [>] Test Loss: 1.8958 | Test Accuracy: 56.78%
+[i] Epoch: 117 | Batch: 48/48 [######### ] | Loss: 1.8920 | Batch Time: 0.66s (lr=0.0025) | Accuracy: 57.93%
+        [t] Epoch 117 completed in 59.57 seconds |  Loss: 1.8801 | Accuracy: 57.93%
+        [>] Test Loss: 1.8983 | Test Accuracy: 56.63%
+[i] Epoch: 118 | Batch: 48/48 [######### ] | Loss: 1.8763 | Batch Time: 0.81s (lr=0.0025) | Accuracy: 58.00%
+        [t] Epoch 118 completed in 59.06 seconds |  Loss: 1.8790 | Accuracy: 58.00%
+        [>] Test Loss: 1.8989 | Test Accuracy: 56.63%
+[i] Epoch: 119 | Batch: 48/48 [######### ] | Loss: 1.8893 | Batch Time: 0.96s (lr=0.0025) | Accuracy: 58.25%
+        [t] Epoch 119 completed in 59.69 seconds |  Loss: 1.8770 | Accuracy: 58.25%
+        [>] Test Loss: 1.8973 | Test Accuracy: 56.81%
+[i] Epoch: 120 | Batch: 48/48 [######### ] | Loss: 1.8549 | Batch Time: 0.46s (lr=0.0025) | Accuracy: 58.14%
+        [t] Epoch 120 completed in 57.16 seconds |  Loss: 1.8774 | Accuracy: 58.14%
+        [>] Test Loss: 1.8992 | Test Accuracy: 56.70%
+[i] Epoch: 121 | Batch: 48/48 [######### ] | Loss: 1.8786 | Batch Time: 0.69s (lr=0.0025) | Accuracy: 58.01%
+        [t] Epoch 121 completed in 52.69 seconds |  Loss: 1.8788 | Accuracy: 58.01%
+        [>] Test Loss: 1.8969 | Test Accuracy: 57.04%
+[i] Epoch: 122 | Batch: 48/48 [######### ] | Loss: 1.8734 | Batch Time: 0.56s (lr=0.0025) | Accuracy: 58.09%
+        [t] Epoch 122 completed in 53.20 seconds |  Loss: 1.8776 | Accuracy: 58.09%
+        [>] Test Loss: 1.8897 | Test Accuracy: 57.44%
+[i] Epoch: 123 | Batch: 48/48 [######### ] | Loss: 1.8862 | Batch Time: 0.75s (lr=0.0025) | Accuracy: 58.15%
+        [t] Epoch 123 completed in 53.18 seconds |  Loss: 1.8766 | Accuracy: 58.15%
+        [>] Test Loss: 1.8844 | Test Accuracy: 57.07%
+[i] Epoch: 124 | Batch: 48/48 [######### ] | Loss: 1.8938 | Batch Time: 0.64s (lr=0.0025) | Accuracy: 58.02%
+        [t] Epoch 124 completed in 52.97 seconds |  Loss: 1.8782 | Accuracy: 58.02%
+        [>] Test Loss: 1.8969 | Test Accuracy: 57.07%
+[i] Epoch: 125 | Batch: 48/48 [######### ] | Loss: 1.8837 | Batch Time: 0.42s (lr=0.0025) | Accuracy: 58.24%
+        [t] Epoch 125 completed in 53.54 seconds |  Loss: 1.8758 | Accuracy: 58.24%
+        [>] Test Loss: 1.8752 | Test Accuracy: 57.96%
+[i] Epoch: 126 | Batch: 48/48 [######### ] | Loss: 1.8352 | Batch Time: 0.40s (lr=0.0025) | Accuracy: 58.16%
+        [t] Epoch 126 completed in 53.76 seconds |  Loss: 1.8757 | Accuracy: 58.16%
+        [>] Test Loss: 1.8912 | Test Accuracy: 57.00%
+[i] Epoch: 127 | Batch: 48/48 [######### ] | Loss: 1.8352 | Batch Time: 0.43s (lr=0.0025) | Accuracy: 58.28%
+        [t] Epoch 127 completed in 53.45 seconds |  Loss: 1.8749 | Accuracy: 58.28%
+        [>] Test Loss: 1.8803 | Test Accuracy: 57.41%
+[i] Epoch: 128 | Batch: 48/48 [######### ] | Loss: 1.8673 | Batch Time: 0.81s (lr=0.0025) | Accuracy: 58.23%
+        [t] Epoch 128 completed in 51.98 seconds |  Loss: 1.8753 | Accuracy: 58.23%
+        [>] Test Loss: 1.8981 | Test Accuracy: 56.78%
+[i] Epoch: 129 | Batch: 48/48 [######### ] | Loss: 1.8433 | Batch Time: 0.42s (lr=0.0025) | Accuracy: 58.31%
+        [t] Epoch 129 completed in 52.58 seconds |  Loss: 1.8740 | Accuracy: 58.31%
+        [>] Test Loss: 1.8838 | Test Accuracy: 57.33%
+[i] Epoch: 130 | Batch: 48/48 [######### ] | Loss: 1.8602 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 58.33%
+        [t] Epoch 130 completed in 52.74 seconds |  Loss: 1.8743 | Accuracy: 58.33%
+        [>] Test Loss: 1.8936 | Test Accuracy: 56.74%
+[i] Epoch: 131 | Batch: 48/48 [######### ] | Loss: 1.8341 | Batch Time: 0.41s (lr=0.0025) | Accuracy: 58.42%
+        [t] Epoch 131 completed in 52.52 seconds |  Loss: 1.8729 | Accuracy: 58.42%
+        [>] Test Loss: 1.8894 | Test Accuracy: 57.70%
+[i] Epoch: 132 | Batch: 48/48 [######### ] | Loss: 1.8596 | Batch Time: 0.49s (lr=0.0025) | Accuracy: 58.40%
+        [t] Epoch 132 completed in 52.27 seconds |  Loss: 1.8733 | Accuracy: 58.40%
+        [>] Test Loss: 1.8812 | Test Accuracy: 57.74%
+[i] Epoch: 133 | Batch: 48/48 [######### ] | Loss: 1.8421 | Batch Time: 0.40s (lr=0.0025) | Accuracy: 58.24%
+        [t] Epoch 133 completed in 49.32 seconds |  Loss: 1.8734 | Accuracy: 58.24%
+        [>] Test Loss: 1.8781 | Test Accuracy: 57.63%
+[i] Epoch: 134 | Batch: 48/48 [######### ] | Loss: 1.8990 | Batch Time: 0.51s (lr=0.0025) | Accuracy: 58.11%
+        [t] Epoch 134 completed in 47.36 seconds |  Loss: 1.8752 | Accuracy: 58.11%
+        [>] Test Loss: 1.8972 | Test Accuracy: 56.74%
+[i] Epoch: 135 | Batch: 48/48 [######### ] | Loss: 1.8743 | Batch Time: 0.40s (lr=0.0025) | Accuracy: 58.27%
+        [t] Epoch 135 completed in 47.13 seconds |  Loss: 1.8731 | Accuracy: 58.27%
+        [>] Test Loss: 1.8837 | Test Accuracy: 56.96%
+[i] Epoch: 136 | Batch: 48/48 [######### ] | Loss: 1.8702 | Batch Time: 0.40s (lr=0.0025) | Accuracy: 58.28%
+        [t] Epoch 136 completed in 47.98 seconds |  Loss: 1.8730 | Accuracy: 58.28%
+        [>] Test Loss: 1.8902 | Test Accuracy: 57.37%
+[i] Epoch: 137 | Batch: 48/48 [######### ] | Loss: 1.8225 | Batch Time: 0.39s (lr=0.0025) | Accuracy: 58.40%
+        [t] Epoch 137 completed in 47.94 seconds |  Loss: 1.8706 | Accuracy: 58.40%
+        [>] Test Loss: 1.8940 | Test Accuracy: 56.78%
+[i] Epoch: 138 | Batch: 48/48 [######### ] | Loss: 1.9732 | Batch Time: 0.53s (lr=0.0025) | Accuracy: 58.19%
+        [t] Epoch 138 completed in 48.03 seconds |  Loss: 1.8737 | Accuracy: 58.19%
+        [>] Test Loss: 1.8807 | Test Accuracy: 57.41%
+[i] Epoch: 139 | Batch: 48/48 [######### ] | Loss: 1.8060 | Batch Time: 0.51s (lr=0.0025) | Accuracy: 58.35%
+        [t] Epoch 139 completed in 47.92 seconds |  Loss: 1.8704 | Accuracy: 58.35%
+        [>] Test Loss: 1.8776 | Test Accuracy: 57.89%
+[i] Epoch: 140 | Batch: 48/48 [######### ] | Loss: 1.8829 | Batch Time: 0.52s (lr=0.0025) | Accuracy: 58.35%
+        [t] Epoch 140 completed in 48.15 seconds |  Loss: 1.8701 | Accuracy: 58.35%
+        [>] Test Loss: 1.8924 | Test Accuracy: 57.11%
+[i] Epoch: 141 | Batch: 48/48 [######### ] | Loss: 1.8463 | Batch Time: 0.53s (lr=0.0025) | Accuracy: 58.39%
+        [t] Epoch 141 completed in 48.02 seconds |  Loss: 1.8685 | Accuracy: 58.39%
+        [>] Test Loss: 1.8779 | Test Accuracy: 57.48%
+[i] Epoch: 142 | Batch: 48/48 [######### ] | Loss: 1.8870 | Batch Time: 0.39s (lr=0.0025) | Accuracy: 58.31%
+        [t] Epoch 142 completed in 47.59 seconds |  Loss: 1.8683 | Accuracy: 58.31%
+        [>] Test Loss: 1.8766 | Test Accuracy: 57.52%
+[i] Epoch: 143 | Batch: 48/48 [######### ] | Loss: 1.8283 | Batch Time: 0.41s (lr=0.0025) | Accuracy: 58.41%
+        [t] Epoch 143 completed in 47.05 seconds |  Loss: 1.8654 | Accuracy: 58.41%
+        [>] Test Loss: 1.8814 | Test Accuracy: 57.11%
+[i] Epoch: 144 | Batch: 48/48 [######### ] | Loss: 1.8601 | Batch Time: 0.42s (lr=0.0025) | Accuracy: 58.39%
+        [t] Epoch 144 completed in 46.76 seconds |  Loss: 1.8660 | Accuracy: 58.39%
+        [>] Test Loss: 1.8747 | Test Accuracy: 57.70%
+[i] Epoch: 145 | Batch: 48/48 [######### ] | Loss: 1.8650 | Batch Time: 0.50s (lr=0.0025) | Accuracy: 58.86%
+        [t] Epoch 145 completed in 47.49 seconds |  Loss: 1.8644 | Accuracy: 58.86%
+        [>] Test Loss: 1.8797 | Test Accuracy: 57.30%
+[i] Epoch: 146 | Batch: 48/48 [######### ] | Loss: 1.8661 | Batch Time: 0.57s (lr=0.0025) | Accuracy: 59.44%
+        [t] Epoch 146 completed in 47.62 seconds |  Loss: 1.8629 | Accuracy: 59.44%
+        [>] Test Loss: 1.8732 | Test Accuracy: 57.59%
+[i] Epoch: 147 | Batch: 48/48 [######### ] | Loss: 1.8389 | Batch Time: 0.52s (lr=0.0025) | Accuracy: 60.33%
+        [t] Epoch 147 completed in 47.40 seconds |  Loss: 1.8591 | Accuracy: 60.33%
+        [>] Test Loss: 1.8867 | Test Accuracy: 57.63%
+[i] Epoch: 148 | Batch: 48/48 [######### ] | Loss: 1.8808 | Batch Time: 0.67s (lr=0.0025) | Accuracy: 61.48%
+        [t] Epoch 148 completed in 45.93 seconds |  Loss: 1.8542 | Accuracy: 61.48%
+        [>] Test Loss: 1.8751 | Test Accuracy: 57.41%
+[i] Epoch: 149 | Batch: 48/48 [######### ] | Loss: 1.8139 | Batch Time: 0.34s (lr=0.0025) | Accuracy: 62.18%
+        [t] Epoch 149 completed in 40.33 seconds |  Loss: 1.8523 | Accuracy: 62.18%
+        [>] Test Loss: 1.8752 | Test Accuracy: 57.30%
