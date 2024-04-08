@@ -1,4 +1,10 @@
 import torch.nn as nn
+import torch.nn.functional as F
+import pennylane.qnn as qnn
+import torch
+
+from circuits import strongly_entangled_circuit, strongly_entangled_circuit_shapes
+from circuits import rotation_circuit, rotation_circuit_shapes
 
 class VGG16(nn.Module):
     def __init__(self):
@@ -47,17 +53,18 @@ class VGG16(nn.Module):
         )
 
         self.classifier = nn.Sequential(
-            nn.Linear(512 * 1 * 1, 4096),  # Adjust for 64x64 images
+            nn.Linear(2048, 1024),  # Adjust for 64x64 images
             nn.ReLU(inplace=True),
             nn.Dropout(),
-            nn.Linear(4096, 4096),
+            nn.Linear(1024, 512),
             nn.ReLU(inplace=True),
             nn.Dropout(),
-            nn.Linear(4096, 1000)  # Assuming 1000 output classes
+            nn.Linear(512, 10),
         )
+        
 
     def forward(self, x):
         x = self.features(x)
         x = x.view(x.size(0), -1)  # Flatten
         x = self.classifier(x)
-        return x
+        return F.softmax(x, dim=1)
