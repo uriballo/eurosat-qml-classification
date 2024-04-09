@@ -6,11 +6,26 @@ import torch.nn.functional as F
 import schedulefree as sf
 import time
 import sys
+import argparse
 
 import time
 import torch.nn.functional as F
 
 LOG_FILE = "QNN4ESAT.log"
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='QNN4ESAT')
+    
+    # Arguments
+    parser.add_argument('--batch_size', type=int, default=512, help='Batch size')
+    parser.add_argument('--epochs', type=int, default=20, help='Number of epochs')
+    parser.add_argument('--lr', type=float, default=0.0025, help='Learning rate')
+    parser.add_argument('--weight_decay', type=float, default=1e-3, help='Weight decay')
+    parser.add_argument('--warmup_steps', type=int, default=30, help='Warmup steps')
+    parser.add_argument('--optimizer', type=str, default='adam', help='Optimizer')
+    parser.add_argument('--verbose', type=bool, default=False, help='Verbose')
+    
+    return parser.parse_args()  
 
 def train(model, device, train_loader, optimizer, epoch, verbose=False):
     model.train()
@@ -84,6 +99,10 @@ def test(model, device, test_loader, optimizer, verbose):
     test_accuracy = 100 * correct / total
 
     print(f"\t[>] Test Loss: {test_loss:.4f} | Test Accuracy: {test_accuracy:.2f}%")
+    if verbose:
+        log_file = open(LOG_FILE, "a")
+        log_file.write(f"Test Loss: {test_loss:.4f} | Test Accuracy: {test_accuracy:.2f}%\n")
+        log_file.close()
 
 if __name__ == '__main__':
     loader = EuroSATLoader(root='./EuroSAT_RGB', image_size=64, batch_size=512, test_size=0.1, random_state=42)
@@ -104,34 +123,16 @@ if __name__ == '__main__':
     model.to(device)
     #optimizer = torch.optim.Adam(model.parameters(), lr=3e-3)
     
-    opt = sf.AdamWScheduleFree(model.parameters(), lr = 0.025,  weight_decay=1e-3) 
-    opt = sf.SGDScheduleFree(model.parameters(), lr= 10, weight_decay=0.0001, warmup_steps=4)
+    #opt = sf.AdamWScheduleFree(model.parameters(), lr = 0.0025,  weight_decay=1e-3) 
+    opt = sf.SGDScheduleFree(model.parameters(), lr = 1, weight_decay=0.0001, warmup_steps=30)
     loss_fn = torch.nn.CrossEntropyLoss()
 
     loss_list = []
     accuracy_list = []  # Track accuracies
-    for epoch in range(20):
+    for epoch in range(150):
         gen = iter(train_loader)
-        train(model, device, gen, opt, epoch, verbose=True)
-
-        
-        # Testing
-        model.eval()  # Set model to evaluation mode
-        opt.eval()  # Set optimizer to evaluation mode
-        test_correct = 0
-        test_samples = 0
-        with torch.no_grad():
-            for data, target in val_loader:
-                data = data.to(device)
-                target = target.to(device)
-
-                output = model(data)
-                _, predicted = torch.max(output.data, 1)
-                test_samples += target.size(0)
-                test_correct += (predicted == target).sum().item()
-
-        test_accuracy = 100 * test_correct / test_samples
-        print('\t[>] Test Accuracy: {:.2f}%'.format(test_accuracy))
+        train(model, device, gen, opt, epoch, verbose=False)
+        test(model, device, val_loader, opt, verbose=True)
     
     print('Training complete')
     print('Saving model...')

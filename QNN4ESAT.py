@@ -6,6 +6,8 @@ import pennylane.qnn as qnn
 
 from circuits import rotation_circuit, rotation_circuit_shapes
 from circuits import strongly_entangled_circuit, strongly_entangled_circuit_shapes
+from circuits import quanv_circuit, quanv_circuit_shapes
+from circuits import rot_entangle_loop_circuit, rot_entangle_loop_circuit_shapes
 
 class QNN4ESAT(nn.Module):
     def __init__(self, device = torch.device("mps")):
@@ -23,7 +25,7 @@ class QNN4ESAT(nn.Module):
         self.fc2 = nn.Linear(128, 32)
         self.fc3 = nn.Linear(32, 4)
         
-        self.qlayer = qnn.TorchLayer(strongly_entangled_circuit, strongly_entangled_circuit_shapes)
+        self.qlayer = qnn.TorchLayer(rot_entangle_loop_circuit, rot_entangle_loop_circuit_shapes)
         self.fc4 = nn.Linear(4, 10)
         
         self.device = device
@@ -31,32 +33,32 @@ class QNN4ESAT(nn.Module):
     def forward(self, x):
         x = self.conv1(x) 
         x = self.bn1(x)  # Batch norm before ReLU
-        x = F.relu(x) 
+        x = F.leaky_relu(x) 
         x = F.max_pool2d(x, 2)
         x = F.dropout(x, 0.2)
 
         x = self.conv2(x) 
         x = self.bn2(x)  # Batch norm before ReLU
-        x = F.relu(x) 
+        x = F.leaky_relu(x) 
         x = F.max_pool2d(x, 2)
         x = F.dropout(x, 0.2)
 
         x = self.conv3(x) 
         x = self.bn3(x)  # Batch norm before ReLU
-        x = F.relu(x) 
+        x = F.leaky_relu(x) 
         x = F.max_pool2d(x, 2)
         x = F.dropout(x, 0.2)
 
         x = self.conv4(x) 
         x = self.bn4(x)  # Batch norm before ReLU
-        x = F.relu(x) 
+        x = F.leaky_relu(x) 
         x = F.max_pool2d(x, 2)
         x = F.dropout(x, 0.2)     
 
         x = x.view(-1, 64 * 2 * 2)
-        x = F.relu(self.fc1(x))
+        x = F.leaky_relu(self.fc1(x))
         x = F.dropout(x, 0.5)
-        x = F.relu(self.fc2(x))
+        x = F.leaky_relu(self.fc2(x))
         if self.device.type == "mps":
             x = F.tanh(self.fc3(x)).to("cpu")
         else:
